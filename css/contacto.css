@@ -1,0 +1,55 @@
+.columna{
+	width: 50%;
+	padding: 0 0.625em;
+	box-sizing: border-box;
+}
+
+.columna.left{
+	border-right: 2px solid #ddd;
+}
+
+.columna.right{
+	padding-left: 3em;
+}
+
+.columna.right p{
+	font-size: 0.8em;
+}
+
+.columna.right ul li{
+	font-size: 0.7em;
+}
+
+.formulario label{
+	width: 22%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.formulario input,
+.formulario textarea{
+	border-radius: 5px;
+	background-color: #ddd;
+	border: 1px solid #999;
+	font-size: 0.8em;
+	padding: 0.4em 0.6em;
+	width: 95%;
+}
+
+.formulario textarea{
+	height: 10em;
+	resize: none;
+}
+
+.formulario input[type="submit"]{
+	width: auto;
+	background-color: #6da9ed;
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	font-size: 1em;
+	text-align: center;
+	color: white;
+}
+
+.formulario .acciones{
+	text-align: center;
+}

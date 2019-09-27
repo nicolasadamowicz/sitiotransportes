@@ -1,0 +1,55 @@
+.historia p{
+	font-size: 0.8em;
+}
+
+.personas{
+	overflow: hidden;
+}
+
+.persona{
+	width: 18%;
+	border: 3px solid #ddd;
+	border-radius: 0.25em;
+	float: left;
+	margin-left: 2.25%;
+	box-sizing: border-box;
+}
+
+.persona figure{
+	margin: 0.8em 0 1em;
+	text-align: center;
+}
+
+.persona figure img{
+	border-radius: 50%;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5)
+}
+
+.persona h5,
+.persona h6{
+	text-align: center;
+	color: #2e64a1;
+	font-weight: normal;
+	margin: 0;
+}
+
+.persona h5{
+	font-size: 0.9em;
+}
+
+.persona h6{
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+.persona p{
+	font-size: 0.7em;
+	color: #444;
+	margin: 0 1em 1em;
+}
+
+.persona:first-child{ /*esta pseudoclase se puede usar para modificar el primer hijo o el ultimo de un sector (first-child o last-child*/
+	margin-left: 0;
+
+}
